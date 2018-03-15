@@ -11,7 +11,7 @@ def prime?(n)
       n % x == 0
       break if false
     end
-  else 
+  else
     return true
     end
   end
