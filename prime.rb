@@ -16,7 +16,7 @@ def prime?(n)
 
 
 
-    
+
   end
   else
     return true
