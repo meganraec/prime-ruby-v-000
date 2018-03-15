@@ -7,7 +7,20 @@ def prime?(n)
     return  false
   elsif n >= 4
     for i in (2..n-1)
-    (n % i == 0) && (i * i < n) ? (return false) : (return true)
+      if i * i <= n
+        n % i == 0
+        return false
+      else
+        return true
+      end
     end
+  end
 end
-end
+
+
+
+#       end
+#     (n % i == 0) && (i * i < n) ? (return false) : (return true)
+#     end
+# end
+# end
