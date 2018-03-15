@@ -9,7 +9,7 @@ def prime?(n)
     x = (2..n-1).to_a
     x.each do |i|
       while (i * i <= n) do
-      n % x == 0
+      n % i == 0
       break if false
       end
     end
