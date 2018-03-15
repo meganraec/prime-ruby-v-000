@@ -8,7 +8,6 @@ def prime?(n)
   else n > 3
     for i in (2..(i * i = n))
     n % i == 0 ? (return false) : (return true)
-      end
     end
   end
 end
