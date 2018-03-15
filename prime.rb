@@ -5,9 +5,18 @@ def prime?(n)
     return true
   elsif n >= 4 && n % 2 == 0
     return  false
-  else n >= 4
-    for i in (2..n-1)
-    n % i == 0 ? (return false) : (return true)
+  elsif n >= 4
+    x = (2..n-1).to_a
+    while x * x <= n do
+      n % x == 0
+      break if false
+    end
+  else 
+    return true
     end
   end
 end
+
+
+# for i in (2..n-1)
+# n % i == 0 ? (return false) : (return true)
