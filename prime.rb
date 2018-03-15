@@ -5,7 +5,7 @@ def prime?(n)
     return true
   elsif n >= 4
     i = 2
-    unless n % i == 0
+    until n % i == 0
       for i in (2..n-1)
       i += 1
     return false
