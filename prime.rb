@@ -8,7 +8,7 @@ def prime?(n)
     # a = (2..n-1).to_a
     # a.each do |i|
       while (i * i <= n) do
-      n % x == 0
+      n % i == 0
       return false
       i += 1
       end
