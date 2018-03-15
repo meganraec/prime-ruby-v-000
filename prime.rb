@@ -5,8 +5,6 @@ def prime?(n)
     return true
   elsif n >= 4
     i = 2
-    # a = (2..n-1).to_a
-    # a.each do |i|
       while (i * i <= n) do
       n % i == 0
       return false
