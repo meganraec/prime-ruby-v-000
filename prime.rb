@@ -5,24 +5,10 @@ def prime?(n)
     return true
   elsif n >= 4 && n % 2 == 0
     return  false
-  elsif n >= 4
-    for i in (2..n-1)
-    (n % i == 0) || (i * i < n) ? (return false) : (return true)
+  else n > 3
+    for i in (2..(i * i = n))
+    n % i == 0 ? (return false) : (return true)
       end
     end
   end
 end
-
-
-
-#       end
-
-#     end
-# end
-# end
-
-# if n % i == 0
-#   return false
-# elsif i * i <= n
-#   return false
-#   return true
