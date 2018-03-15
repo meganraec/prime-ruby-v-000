@@ -8,7 +8,7 @@ def prime?(n)
   elsif n >= 4
     # i = 2
     for i in (2..n-1)
-    n % i == 0 ? false : return true
+    n % i == 0 ? (return false) : (return true)
     # # i += 1
     # return false
     end
