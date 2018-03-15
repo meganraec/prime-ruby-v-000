@@ -7,7 +7,7 @@ def prime?(n)
     return  false
   elsif n >= 4
     x = (2..n-1).to_a
-    while x * x <= n do
+    while (x * x <= n) do
       n % x == 0
       break if false
     end
