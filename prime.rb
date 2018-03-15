@@ -3,9 +3,10 @@ def prime?(n)
     return false
   elsif n == 2 || n == 3
     return true
-  elsif n >= 4 && n % 2 == 0
-    return  false
-  elsif n >= 4
+  end
+  # elsif n >= 4 && n % 2 == 0
+  #   return  false
+  # elsif n >= 4
     x = 2
     while (x * x <= n)
       if n % x == 0
